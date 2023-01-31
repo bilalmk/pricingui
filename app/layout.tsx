@@ -1,9 +1,10 @@
-import './globals.css'
+//import "./globals.css";
+//import Inc from "./inc";
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -13,6 +14,9 @@ export default function RootLayout({
       */}
       <head />
       <body>{children}</body>
+      {/* <body>
+        <Inc>{children}</Inc>
+      </body> */}
     </html>
-  )
+  );
 }
